@@ -69,6 +69,9 @@ proxy-groups:
 - {name: 新加坡自动选择,type: url-test, include-all: true, filter: "(?i)(新|sg|singapore)", icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/SG.png"}
 
 rules:
+- RULE-SET,google_fcm_domain,📢 谷歌FCM
+- RULE-SET,google_fcm_ip,📢 谷歌FCM
+
 - GEOIP,lan,直连,no-resolve
 - RULE-SET,biliintl_domain,哔哩东南亚
 - RULE-SET,ehentai_domain,ehentai
@@ -76,7 +79,6 @@ rules:
 - RULE-SET,twitter_domain,Twitter
 - RULE-SET,youtube_domain,YouTube
 - RULE-SET,google_domain,Google
-- RULE-SET,google_fcm_domain,📢 谷歌FCM
 - RULE-SET,telegram_domain,Telegram
 - RULE-SET,netflix_domain,NETFLIX
 - RULE-SET,bilibili_domain,哔哩哔哩
@@ -86,7 +88,6 @@ rules:
 - RULE-SET,geolocation-!cn,其他
 
 - RULE-SET,google_ip,Google
-- RULE-SET,google_fcm_ip,📢 谷歌FCM
 - RULE-SET,netflix_ip,NETFLIX
 - RULE-SET,telegram_ip,Telegram
 - RULE-SET,twitter_ip,Twitter
